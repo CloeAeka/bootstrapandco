@@ -1,0 +1,361 @@
+@font-face {
+    font-family: "Lato", "Merriweather-italic", "Merriweather-Bold",
+    "Merriweather-Black", "Merriweather-LightItalic";
+    src: url("../font/Lato-Regular.ttf"), ("../font/Merriweather-Italic");
+    src: url("../font/Merriweather-Bold"), ("../font/Merriweather-Black");
+    src: url("../font/Merriweather-LightItalic");
+}
+
+hr.margintop {
+    margin-top: -1rem;
+}
+p {
+    font-family: "Lato", "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+h1 {
+    font-family: "Merriweather-Black", "Times New Roman", Times, serif;
+    font-size: 28px;
+}
+h2 {
+    font-family: "Lato", "Times New Roman", Times, serif;
+    font-size: 28px;
+}
+p.priceline {
+    font-family: "Lato", "Times New Roman", Times, serif;
+    font-size: 16px;
+    text-decoration: line-through;
+    color: gray;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: black;
+}
+
+span.redbox {
+    font-family: "Lato", "Times New Roman", Times, serif;
+    font-size: 12px;
+    background-color: red;
+}
+span.freeshipping {
+    font-family: "Lato", "Times New Roman", Times, serif;
+    font-size: 10px;
+    background-color: #66b116;
+}
+p.pricegray {
+    font-family: "Lato", "Times New Roman", Times, serif;
+    font-size: 12px;
+    color: #bdbdbd;
+}
+#primary_nav p.titre_partie_un {
+    font-size: 46px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#primary_nav p.titre_partie_deux {
+    font-size: 14px;
+    font-family: "Lato", "Times New Roman", Times, serif;
+    text-align: center;
+    margin-top: -14px;
+}
+
+#primary_nav div.col > p.panier {
+    text-align: end;
+    margin-right: 0px;
+    text-decoration: underline;
+}
+
+#primary_nav #menu {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-family: "Lato", "Times New Roman", Times, serif;
+}
+
+#primary_nav #menu div.menMenu {
+    width: 20%;
+}
+
+#primary_nav #menu div.womenMenu {
+    width: 20%;
+}
+
+#primary_nav p.social {
+    text-align: end;
+    margin-right: 75px;
+}
+
+#trait_dessus {
+    border-top: 1px solid #000;
+    width: 100%;
+    margin-top: -20px;
+}
+
+header:nth-child(4) div.col-4 {
+    font-size: 8px;
+    font-family: "Merriweather-Italic", "Times New Roman", Times, serif;
+}
+
+div.bg-image {
+    background-image: url("../images/image/fashion-beauty.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 550px;
+}
+
+div.aligner {
+    margin-top: 30%;
+}
+
+div.bg-image2 {
+    background-image: url("../images/image/fashion-woman.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 284px;
+}
+
+div.bg-image3 {
+    background-image: url("../images/image/fashion-man.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 266px;
+}
+
+div.bg-image4 {
+    background-image: url("../images/image/fashion-childrens.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 266px;
+}
+
+p.para1 {
+    color: white;
+    margin-bottom: 0%;
+    font-size: 14px;
+}
+
+p.para2 {
+    color: white;
+    font-size: 36px;
+    font-family: "Merriweather-Bold", "Times New Roman", Times, serif;
+    margin-top: 30px;
+    margin-left: 0px;
+    line-height: 100%;
+}
+p.para3 {
+    color: white;
+    font-size: 14px;
+    font-family: "Merriweather-Bold", "Times New Roman", Times, serif;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+p.para4 {
+    color: black;
+    font-size: 36px;
+    font-family: "Merriweather-Bold", "Times New Roman", Times, serif;
+    line-height: 100%;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    margin-left: 0px;
+}
+
+p.imagereduc {
+    font-size: 28px;
+    font-family: "Merriweather-Bold";
+}
+p.discount {
+    font-size: 140px;
+    line-height: 120%;
+    font-family: "Merriweather-Bold", "Times New Roman", Times, serif;
+}
+p.percent {
+    font-size: 100px;
+    font-family: "Merriweather-Bold", "Times New Roman", Times, serif;
+}
+
+p.offdiscount {
+    font-size: 40px;
+    font-family: "Merriweather-Bold", "Times New Roman", Times, serif;
+    margin-top: -50px;
+}
+
+p.shopbutton {
+    position: relative;
+    text-align: left;
+    left: 0px;
+    color: yellow;
+}
+p.shopcolor {
+    color: yellow;
+    font-size: 16px;
+    margin-bottom: 36px;
+}
+p.subscribe {
+    font-size: 16px;
+    font-family: "Merriweather-LightItalic", "Times New Roman", Times, serif;
+}
+div.height {
+    height: 284px;
+}
+
+p.footer {
+    font-family: "Lato", "Times New Roman", Times, serif;
+    font-size: 8px;
+}
+
+div.cercle1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: #f3dfc8;
+    margin-right: 1em;
+}
+div.cercle:hover {
+    cursor: pointer;
+}
+div.cercle2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: #ffab00;
+    margin-right: 1em;
+}
+div.cercle3 {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: #ed5353;
+}
+button.myBtn {
+    border: black;
+    border-style: solid;
+    border-radius: 1px;
+    background-color: white;
+}
+body {
+    overflow-x: hidden;
+}
+
+.card {
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+fieldset.active {
+    display: block !important;
+}
+
+fieldset {
+    display: none;
+}
+
+.pic0 {
+    width: auto;
+    height: 500px;
+    margin-left: 45px;
+    margin-right: auto;
+    display: block;
+}
+
+.product-pic {
+    padding-left: auto;
+    padding-right: auto;
+    width: 100%;
+}
+
+.thumbnails {
+    position: absolute;
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+.tb {
+    width: 62px;
+    height: 62px;
+    border: 1px solid grey;
+    margin: 2px;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.tb-active {
+    opacity: 1;
+}
+
+.thumbnail-img {
+    width: 60px;
+    height: 60px;
+}
+
+@media screen and (max-width: 992px) {
+    .pic0 {
+        width: 250px;
+        height: 350px;
+    }
+}
+
+.cursor {
+    cursor: pointer;
+}
+@media (max-width: 992px) {
+    .textPanier {
+        display: none;
+    }
+    .panierCentrer {
+        text-align: center;
+    }
+}
+
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+
+.success-msg {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.success-msg {
+    color: #270;
+    background-color: #dff2bf;
+}
+
+/* >------------Page 404------------< */
+
+#page404 {
+    color: red;
+    font-size: 900vh;
+    font-family: sans-serif;
+
+
+    
+}
+
+@keyframes ani {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 400% 0;
+    }
+}
+
+/* >------------Page 404 end------------< */
